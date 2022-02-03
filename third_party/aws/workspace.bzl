@@ -20,11 +20,11 @@ def repo():
     tf_http_archive(
         name = "aws-c-common",
         urls = [
-            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/awslabs/aws-c-common/archive/v0.4.29.tar.gz",
-            "https://github.com/awslabs/aws-c-common/archive/v0.4.29.tar.gz",
+            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/awslabs/aws-c-common/archive/v0.6.13.tar.gz",
+            "https://github.com/awslabs/aws-c-common/archive/v0.6.13.tar.gz",
         ],
-        sha256 = "01c2a58553a37b3aa5914d9e0bf7bf14507ff4937bc5872a678892ca20fcae1f",
-        strip_prefix = "aws-c-common-0.4.29",
+        sha256 = "3a5daefae74e56f5c4fa22189b8fb643ae9b43b31df9281922bfb38b26248a39",
+        strip_prefix = "aws-c-common-0.6.13",
         build_file = "//third_party/aws:aws-c-common.bazel",
     )
 
