@@ -834,11 +834,11 @@ def _tf_repositories():
     tf_http_archive(
         name = "cub_archive",
         build_file = "//third_party:cub.BUILD",
-        sha256 = "162514b3cc264ac89d91898b58450190b8192e2af1142cf8ccac2d59aa160dda",
-        strip_prefix = "cub-1.9.9",
+        sha256 = "dcb75744650deb42e9123509482e0f84944c1dbd60d5cd909a416d953d3a6903",
+        strip_prefix = "cub-1.15.0",
         urls = [
-            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/NVlabs/cub/archive/1.9.9.zip",
-            "https://github.com/NVlabs/cub/archive/1.9.9.zip",
+            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/NVlabs/cub/archive/1.15.0.zip",
+            "https://github.com/NVlabs/cub/archive/1.15.0.zip",
         ],
     )
 
