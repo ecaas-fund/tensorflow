@@ -312,11 +312,11 @@ def _tf_repositories():
 
     tf_http_archive(
         name = "com_github_googlecloudplatform_tensorflow_gcp_tools",
-        sha256 = "5e9ebe17eaa2895eb7f77fefbf52deeda7c4b63f5a616916b823eb74f3a0c542",
-        strip_prefix = "tensorflow-gcp-tools-2643d8caeba6ca2a6a0b46bb123953cb95b7e7d5",
+        sha256 = "cd44bcb435a67c5a06467e3f242b758af77906bb2fb48c0e5c2585b2b3f97942",
+        strip_prefix = "tensorflow-gcp-tools-53fa4d6c1f19353263d6987291886f8e4846b67f",
         urls = [
-            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/GoogleCloudPlatform/tensorflow-gcp-tools/archive/2643d8caeba6ca2a6a0b46bb123953cb95b7e7d5.tar.gz",
-            "https://github.com/GoogleCloudPlatform/tensorflow-gcp-tools/archive/2643d8caeba6ca2a6a0b46bb123953cb95b7e7d5.tar.gz",
+            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/GoogleCloudPlatform/tensorflow-gcp-tools/archive/53fa4d6c1f19353263d6987291886f8e4846b67f.tar.gz",
+            "https://github.com/GoogleCloudPlatform/tensorflow-gcp-tools/archive/53fa4d6c1f19353263d6987291886f8e4846b67f.tar.gz",
         ],
     )
 
