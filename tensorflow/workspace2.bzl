@@ -283,12 +283,12 @@ def _tf_repositories():
 
     tf_http_archive(
         name = "com_github_google_crc32c",
-        sha256 = "6b3b1d861bb8307658b2407bc7a4c59e566855ef5368a60b35c893551e4788e9",
+        sha256 = "ac07840513072b7fcebda6e821068aa04889018f24e10e46181068fb214d7e56",
         build_file = "@com_github_googlecloudplatform_google_cloud_cpp//bazel:crc32c.BUILD",
-        strip_prefix = "crc32c-1.0.6",
+        strip_prefix = "crc32c-1.1.2",
         urls = [
-            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/google/crc32c/archive/1.0.6.tar.gz",
-            "https://github.com/google/crc32c/archive/1.0.6.tar.gz",
+            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/google/crc32c/archive/1.1.2.tar.gz",
+            "https://github.com/google/crc32c/archive/1.1.2.tar.gz",
         ],
     )
 
