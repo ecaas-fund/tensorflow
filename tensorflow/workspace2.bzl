@@ -994,11 +994,11 @@ def _tf_repositories():
     # https://github.com/bazelbuild/apple_support/releases
     tf_http_archive(
         name = "build_bazel_apple_support",
-        sha256 = "ad8ae80e93612b8151019367a3d1604d7a51c14480dae1254e10252007e8260c",
-        strip_prefix = "apple_support-501b4afb27745c4813a88ffa28acd901408014e4",
+        sha256 = "cced0ef49435647ebcbcccef29d6a32378da7d36533813cc9eab7d27ea7356e1",
+        strip_prefix = "apple_support-e726b11a5d263a2f86c0518f257ea202ccf77847",
         urls = [
-            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/bazelbuild/apple_support/archive/501b4afb27745c4813a88ffa28acd901408014e4.tar.gz",
-            "https://github.com/bazelbuild/apple_support/archive/501b4afb27745c4813a88ffa28acd901408014e4.tar.gz",
+            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/bazelbuild/apple_support/archive/e726b11a5d263a2f86c0518f257ea202ccf77847.tar.gz",
+            "https://github.com/bazelbuild/apple_support/archive/e726b11a5d263a2f86c0518f257ea202ccf77847.tar.gz",
         ],
     )
 
