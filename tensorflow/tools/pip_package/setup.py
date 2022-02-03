@@ -80,7 +80,7 @@ REQUIRED_PACKAGES = [
     # everything else.
     'numpy ~= 1.19.2',
     # Install other dependencies
-    'absl-py ~= 0.10',
+    'absl-py ~=1.0.0',
     'astunparse ~= 1.6.3',
     'flatbuffers ~= 1.12.0',
     'google_pasta ~= 0.2',
