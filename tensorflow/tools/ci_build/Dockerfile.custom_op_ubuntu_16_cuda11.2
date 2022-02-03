@@ -1,6 +1,6 @@
 # Dockerfile for Ubuntu 16.04 manylinux2010 custom ops with GPU.
 
-FROM nvidia/cuda:11.2.1-cudnn8-devel-ubuntu16.04 as devtoolset
+FROM nvidia/cuda:11.3.1-cudnn8-devel-ubuntu16.04 as devtoolset
 
 LABEL maintainer="Amit Patankar <amitpatankar@google.com>"
 
@@ -27,7 +27,7 @@ RUN /build_devtoolset.sh devtoolset-7 /dt7
 RUN /build_devtoolset.sh devtoolset-8 /dt8
 
 # TODO(klimek): Split up into two different docker images.
-FROM nvidia/cuda:11.2.1-cudnn8-devel-ubuntu16.04
+FROM nvidia/cuda:11.3.1-cudnn8-devel-ubuntu16.04
 
 LABEL maintainer="Amit Patankar <amitpatankar@google.com>"
 
