@@ -159,11 +159,11 @@ def _tf_repositories():
         name = "cudnn_frontend_archive",
         build_file = "//third_party:cudnn_frontend.BUILD",
         patch_file = "//third_party:cudnn_frontend_header_fix.patch",
-        sha256 = "498f908ced41bbf524af6b89dc4229d5cc89311bfaaed1e3794981e858629196",
-        strip_prefix = "cudnn-frontend-360d6e7164dfb7c802493fd1c0464f0d815b852a",
+        sha256 = "782346ec7eac5f5764945bda9ddc22658f3fe30ab4407966aec471bd2e7803ad",
+        strip_prefix = "cudnn-frontend-7b83dba83fa31381aeca508d89aab94f4639ac6d",
         urls = [
-            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/NVIDIA/cudnn-frontend/archive/360d6e7164dfb7c802493fd1c0464f0d815b852a.zip",
-            "https://github.com/NVIDIA/cudnn-frontend/archive/360d6e7164dfb7c802493fd1c0464f0d815b852a.zip",
+            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/NVIDIA/cudnn-frontend/archive/7b83dba83fa31381aeca508d89aab94f4639ac6d.zip",
+            "https://github.com/NVIDIA/cudnn-frontend/archive/7b83dba83fa31381aeca508d89aab94f4639ac6d.zip",
         ],
     )
 
