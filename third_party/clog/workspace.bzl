@@ -5,11 +5,11 @@ load("//third_party:repo.bzl", "tf_http_archive")
 def repo():
     tf_http_archive(
         name = "clog",
-        strip_prefix = "cpuinfo-d5e37adf1406cf899d7d9ec1d317c47506ccb970",
-        sha256 = "3f2dc1970f397a0e59db72f9fca6ff144b216895c1d606f6c94a507c1e53a025",
+        strip_prefix = "cpuinfo-85e931e36af24a3ec73b146b9fe8423b4b2a67db",
+        sha256 = "9a048df31017b7620ac00c3356dbe811a32683f5c48ee08e84c4816e36aa6770",
         urls = [
-            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/pytorch/cpuinfo/archive/d5e37adf1406cf899d7d9ec1d317c47506ccb970.tar.gz",
-            "https://github.com/pytorch/cpuinfo/archive/d5e37adf1406cf899d7d9ec1d317c47506ccb970.tar.gz",
+            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/pytorch/cpuinfo/archive/85e931e36af24a3ec73b146b9fe8423b4b2a67db.tar.gz",
+            "https://github.com/pytorch/cpuinfo/archive/85e931e36af24a3ec73b146b9fe8423b4b2a67db.tar.gz",
         ],
         build_file = "//third_party/clog:BUILD.bazel",
     )
