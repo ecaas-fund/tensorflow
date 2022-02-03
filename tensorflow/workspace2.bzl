@@ -565,15 +565,15 @@ def _tf_repositories():
     tf_http_archive(
         name = "com_google_protobuf",
         patch_file = "//third_party/protobuf:protobuf.patch",
-        sha256 = "cfcba2df10feec52a84208693937c17a4b5df7775e1635c1e3baffc487b24c9b",
-        strip_prefix = "protobuf-3.9.2",
+        sha256 = "25680843adf0c3302648d35f744e38cc3b6b05a6c77a927de5aea3e1c2e36106",
+        strip_prefix = "protobuf-3.19.4",
         system_build_file = "//third_party/systemlibs:protobuf.BUILD",
         system_link_files = {
             "//third_party/systemlibs:protobuf.bzl": "protobuf.bzl",
         },
         urls = [
-            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/protocolbuffers/protobuf/archive/v3.9.2.zip",
-            "https://github.com/protocolbuffers/protobuf/archive/v3.9.2.zip",
+            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/protocolbuffers/protobuf/archive/v3.19.4.zip",
+            "https://github.com/protocolbuffers/protobuf/archive/v3.19.4.zip",
         ],
     )
 
