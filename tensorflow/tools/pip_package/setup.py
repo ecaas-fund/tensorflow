@@ -92,7 +92,7 @@ REQUIRED_PACKAGES = [
     'termcolor ~= 1.1.0',
     'typing_extensions ~= 3.7.4',
     'wheel ~= 0.35',
-    'wrapt ~= 1.12.1',
+    'wrapt ~=1.13.3',
     # These packages need to be pinned exactly as newer versions are
     # incompatible with the rest of the ecosystem
     'gast == 0.4.0',
