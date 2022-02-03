@@ -294,8 +294,8 @@ def _tf_repositories():
 
     tf_http_archive(
         name = "com_github_googlecloudplatform_google_cloud_cpp",
-        sha256 = "ff82045b9491f0d880fc8e5c83fd9542eafb156dcac9ff8c6209ced66ed2a7f0",
-        strip_prefix = "google-cloud-cpp-1.17.1",
+        sha256 = "a7e51bfffb95a377094b2ae7e3b9f715a68ed931c48992c7273b2fae989c029c",
+        strip_prefix = "google-cloud-cpp-1.36.0",
         repo_mapping = {
             "@com_github_curl_curl": "@curl",
             "@com_github_nlohmann_json": "@nlohmann_json_lib",
@@ -305,8 +305,8 @@ def _tf_repositories():
             "//third_party/systemlibs:google_cloud_cpp.google.cloud.bigtable.BUILD": "google/cloud/bigtable/BUILD",
         },
         urls = [
-            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/googleapis/google-cloud-cpp/archive/v1.17.1.tar.gz",
-            "https://github.com/googleapis/google-cloud-cpp/archive/v1.17.1.tar.gz",
+            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/googleapis/google-cloud-cpp/archive/v1.36.0.tar.gz",
+            "https://github.com/googleapis/google-cloud-cpp/archive/v1.36.0.tar.gz",
         ],
     )
 
