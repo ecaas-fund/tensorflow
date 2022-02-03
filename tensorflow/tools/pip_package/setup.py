@@ -90,7 +90,7 @@ REQUIRED_PACKAGES = [
     'protobuf >= 3.9.2',
     'six ~= 1.15.0',
     'termcolor ~= 1.1.0',
-    'typing_extensions ~= 3.7.4',
+    'typing_extensions ~=3.10.0.2',
     'wheel ~= 0.35',
     'wrapt ~= 1.12.1',
     # These packages need to be pinned exactly as newer versions are
