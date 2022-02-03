@@ -6,11 +6,11 @@ def repo():
     tf_http_archive(
         name = "pasta",
         urls = [
-            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/google/pasta/archive/v0.1.8.tar.gz",
-            "https://github.com/google/pasta/archive/v0.1.8.tar.gz",
+            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/google/pasta/archive/v0.2.0.tar.gz",
+            "https://github.com/google/pasta/archive/v0.2.0.tar.gz",
         ],
-        strip_prefix = "pasta-0.1.8",
-        sha256 = "c6dc1118250487d987a7b1a404425822def2e8fb2b765eeebc96887e982b6085",
+        strip_prefix = "pasta-0.2.0",
+        sha256 = "b9e3bcf5ab79986e245c8a2f3a872d14c610ce66904c4f16818342ce81cf97d2",
         build_file = "//third_party/pasta:BUILD.bazel",
         system_build_file = "//third_party/pasta:BUILD.system",
     )
