@@ -5,11 +5,11 @@ load("//third_party:repo.bzl", "tf_http_archive")
 def repo():
     tf_http_archive(
         name = "opencl_headers",
-        strip_prefix = "OpenCL-Headers-0d5f18c6e7196863bc1557a693f1509adfcee056",
-        sha256 = "03cbc1fd449399be0422cdb021400f63958ef2c5a7c099a0d8f36a705b312f53",
+        strip_prefix = "OpenCL-Headers-80c10b1f65b932894b830da7cd37bc56c541bae4",
+        sha256 = "cfcd3df85c56f2b5a5606cd8d35f169e17d8ccb9178eae93afb64eb111ec0301",
         urls = [
-            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/KhronosGroup/OpenCL-Headers/archive/0d5f18c6e7196863bc1557a693f1509adfcee056.tar.gz",
-            "https://github.com/KhronosGroup/OpenCL-Headers/archive/0d5f18c6e7196863bc1557a693f1509adfcee056.tar.gz",
+            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/KhronosGroup/OpenCL-Headers/archive/80c10b1f65b932894b830da7cd37bc56c541bae4.tar.gz",
+            "https://github.com/KhronosGroup/OpenCL-Headers/archive/80c10b1f65b932894b830da7cd37bc56c541bae4.tar.gz",
         ],
         build_file = "//third_party/opencl_headers:BUILD.bazel",
     )
