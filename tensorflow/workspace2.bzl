@@ -623,8 +623,8 @@ def _tf_repositories():
     # WARNING: make sure ncteisen@ and vpai@ are cc-ed on any CL to change the below rule
     tf_http_archive(
         name = "com_github_grpc_grpc",
-        sha256 = "b956598d8cbe168b5ee717b5dafa56563eb5201a947856a6688bbeac9cac4e1f",
-        strip_prefix = "grpc-b54a5b338637f92bfcf4b0bc05e0f57a5fd8fadd",
+        sha256 = "24fb406df6c9d50f56e57b12cd7ca357df76dbe41e7803418022233f35fbe725",
+        strip_prefix = "grpc-92738290ab69ae9baa83fb79f436d1753f13f278",
         system_build_file = "//third_party/systemlibs:grpc.BUILD",
         patch_file = "//third_party/grpc:generate_cc_env_fix.patch",
         system_link_files = {
@@ -637,8 +637,8 @@ def _tf_repositories():
             "//third_party/systemlibs:grpc.bazel.protobuf.bzl": "bazel/protobuf.bzl",
         },
         urls = [
-            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/grpc/grpc/archive/b54a5b338637f92bfcf4b0bc05e0f57a5fd8fadd.tar.gz",
-            "https://github.com/grpc/grpc/archive/b54a5b338637f92bfcf4b0bc05e0f57a5fd8fadd.tar.gz",
+            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/grpc/grpc/archive/92738290ab69ae9baa83fb79f436d1753f13f278.tar.gz",
+            "https://github.com/grpc/grpc/archive/92738290ab69ae9baa83fb79f436d1753f13f278.tar.gz",
         ],
     )
 
