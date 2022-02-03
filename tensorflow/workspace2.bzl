@@ -983,11 +983,11 @@ def _tf_repositories():
     # https://github.com/bazelbuild/rules_swift/releases
     tf_http_archive(
         name = "build_bazel_rules_swift",
-        sha256 = "d0833bc6dad817a367936a5f902a0c11318160b5e80a20ece35fb85a5675c886",
-        strip_prefix = "rules_swift-3eeeb53cebda55b349d64c9fc144e18c5f7c0eb8",
+        sha256 = "a7edc355c1309808abe233068a1bb035b65e061b785eb9635a5be7b3ae20bfb3",
+        strip_prefix = "rules_swift-2a9864cbdcb43655a933bf25604dfacc197a0f23",
         urls = [
-            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/bazelbuild/rules_swift/archive/3eeeb53cebda55b349d64c9fc144e18c5f7c0eb8.tar.gz",
-            "https://github.com/bazelbuild/rules_swift/archive/3eeeb53cebda55b349d64c9fc144e18c5f7c0eb8.tar.gz",
+            "https://storage.googleapis.com/mirror.tensorflow.org/github.com/bazelbuild/rules_swift/archive/2a9864cbdcb43655a933bf25604dfacc197a0f23.tar.gz",
+            "https://github.com/bazelbuild/rules_swift/archive/2a9864cbdcb43655a933bf25604dfacc197a0f23.tar.gz",
         ],
     )
 
